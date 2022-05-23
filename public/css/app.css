@@ -21550,12 +21550,14 @@ readers do not read off random characters that represent icons */
   content: "\F63F";
 }
 
-body section#home-hero,
-body section#car-detail,
-body section#add-form {
-  height: 86vh;
-}
+/* body {
 
+    section#home-hero,
+    section#car-detail,
+    section#add-form {
+        height: 86vh;
+    }
+} */
 header {
   top: 0;
   height: 7vh;
@@ -21632,7 +21634,17 @@ footer span:last-of-type:after {
   font-size: 0.95rem;
 }
 
-/* img {
-    height: 550px;
-    width: 315px;
-} */
+main {
+  height: 86vh;
+}
+
+footer {
+  height: 7vh;
+}
+
+img {
+  height: 350px;
+  width: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
